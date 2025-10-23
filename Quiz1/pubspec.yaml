@@ -1,0 +1,27 @@
+name: dice_app
+description: Dice roller with PNGs and sound
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  audioplayers: ^6.1.0
+  flutter_launcher_icons: ^0.14.4
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon.png"
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/dice1.png
+    - assets/dice2.png
+    - assets/dice3.png
+    - assets/dice4.png
+    - assets/dice5.png
+    - assets/dice6.png
+    - assets/roll.mp3
