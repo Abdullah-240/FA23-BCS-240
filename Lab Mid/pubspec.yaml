@@ -1,0 +1,22 @@
+name: doctor_app
+description: A simple doctor app
+publish_to: 'none'
+version: 0.0.1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.20.0
+  provider: ^6.0.5
+  sqflite: ^2.2.8+4
+  path: ^1.8.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
